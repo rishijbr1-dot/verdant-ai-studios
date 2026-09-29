@@ -1,0 +1,37 @@
+{
+  "name": "verdant-ai-studios",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Autonomous AI Content Intelligence & Production Company - 3D Virtual HQ with 81 Specialized Agents",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "vite",
+    "server": "tsx watch server/index.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^r160",
+    "@react-three/fiber": "^8.15.0",
+    "@react-three/drei": "^9.92.0",
+    "gsap": "^3.12.2",
+    "zustand": "^4.4.7",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/three": "^r160",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.7",
+    "tsx": "^4.7.0",
+    "concurrently": "^8.2.2",
+    "@vitejs/plugin-react": "^4.2.1"
+  }
+}
